@@ -1,0 +1,32 @@
+@font-fact {
+  font-family: "Determination Mono";
+  src:
+	local("Determination Mono"),
+	url("/assets/fonts/DTM-Mono/DTM-Mono.eot?#iefix") format("embedded-opentype"),
+	url("/assets/fonts/DTM-Mono/DTM-Mono.otf") format("opentype"),
+	url("/assets/fonts/DTM-Mono/DTM-Mono.woff2") format("woff2"),
+	url("/assets/fonts/DTM-Mono/DTM-Mono.woff") format("woff"),
+	url("/assets/fonts/DTM-Mono/DTM-Mono.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Determination Sans";
+  src:
+	local("Determination Sans"),
+	url("/assets/fonts/DTM-Sans/DTM-Sans.eot?#iefix") format("embedded-opentype"),
+	url("/assets/fonts/DTM-Sans/DTM-Sans.otf") format("opentype"),
+	url("/assets/fonts/DTM-Sans/DTM-Sans.woff2") format("woff2"),
+	url("/assets/fonts/DTM-Sans/DTM-Sans.woff") format("woff"),
+	url("/assets/fonts/DTM-Sans/DTM-Sans.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Minecraft Regular";
+  src:
+    local("Minecraft Regular"),
+	url("/assets/fonts/minecraftfont/minecraftfont.eot?#iefix") format("embedded-opentype"),
+	url("/assets/fonts/minecraftfont/minecraftfont.otf") format("opentype"),
+	url("/assets/fonts/minecraftfont/minecraftfont.woff2") format("woff2"),
+	url("/assets/fonts/minecraftfont/minecraftfont.woff") format("woff"),
+	url("/assets/fonts/minecraftfont/minecraftfont.ttf") format('truetype');
+}
