@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 570px) {
   #header h1 {
-  font-size: 28px;
+    font-size: 28px;
   }
 }
 
@@ -65,21 +65,40 @@ a:visited {
   letter-spacing: 1px;
 }
 
-.badge-section {
-  margin: 40px auto;
-  width: 85%;
+.info-sections {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 20px auto;
+  width: 95%;
+}
+
+.badge-section,
+.about-section {
+  flex: 1;
+  max-width: 45%;
   background: rgba(0, 0, 0, 0.55);
   box-shadow: 0 0 12px #000;
-  border-radius: 6px;
+  border-radius: 3px;
   padding: 20px;
 }
 
 @media screen and (max-width: 1042px) {
   .badge-section {
-    margin: 40px 0;
+    margin: 20px 0;
     width: 100%;
     border-radius: 0px;
     padding: 0px;
+  }
+
+  .about-section {
+    display: none;
+  }
+
+  .badge-section {
+    width: 100%;
+    max-width: 100%;
   }
 }
 /*
