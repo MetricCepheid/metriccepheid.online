@@ -1,9 +1,11 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 #header {
-  background: linear-gradient(var(--color-purple-6), var(--color-purple-3));
+  background: linear-gradient(var(--color-magenta-3), var(--color-purple-3));
   padding: 30px 0;
   border-bottom: 3px solid var(--color-cyan-7);
   box-shadow: 0 0 8px var(--color-cyan-7);
@@ -18,7 +20,7 @@
 
 @media screen and (max-width: 570px) {
   #header h1 {
-    font-size: 28px;
+  font-size: 28px;
   }
 }
 
@@ -29,14 +31,17 @@
 }
 
 iframe {
-  max-width: 100%
+  max-width: 100%;
 }
 
-a:active, a:link, a:hover, a:visited {
+a:active,
+a:link,
+a:hover,
+a:visited {
   color: transparent;
   background: transparent;
 }
-  
+
 .divkil {
   width: 0 auto;
   border: 3px solid var(--color-purple-4);
@@ -45,7 +50,7 @@ a:active, a:link, a:hover, a:visited {
   padding: 0 auto;
   margin: 0 auto;
 }
-  
+
 .divkil3 {
   background-color: var(--color-purple-3);
   padding-top: 4px;
@@ -77,30 +82,30 @@ a:active, a:link, a:hover, a:visited {
     padding: 0px;
   }
 }
-
+/*
 .badge-section img {
   margin: 4px;
   border: 1px solid #333;
   background: #111;
   padding: 2px;
   transition: 0.2s;
-  image-rendering: pixelated
+  image-rendering: pixelated;
 }
 
 .badge-section img:hover {
   transform: translateY(-3px);
   box-shadow: 0 0 6px var(--color-cyan-6);
 }
-
+*/
 body {
   margin: 0;
   padding: 0;
   background-color: var(--color-cyan-2);
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-family: "Segoe UI", Tahoma, sans-serif;
   color: var(--color-white);
   text-align: center;
 }
-  
+
 h1 {
   color: var(--color-white);
   font-family: "Minecraft Regular";
@@ -108,7 +113,7 @@ h1 {
   letter-spacing: 1.5px;
   text-align: center;
 }
-  
+
 p {
   color: var(--color-white);
   font-family: "Determination Sans";
