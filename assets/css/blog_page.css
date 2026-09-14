@@ -128,12 +128,24 @@ body {
 h1 {
   color: var(--color-white);
   font-family: "Minecraft Regular";
-  font-size: 15px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: var(--color-magenta-5);
+  font-family: "Minecraft Regular";
+  font-size: 25px;
   letter-spacing: 1.5px;
   text-align: center;
 }
 
 p {
+  margin: 18px;
+  padding: 0;
   color: var(--color-white);
   font-family: "Segoe UI", Tahoma, sans-serif;
   font-size: 20px;
@@ -146,4 +158,8 @@ iframe {
   height: 315px;
   border: 3px solid var(--color-cyan-7);
   box-shadow: 0 0 12px var(--color-cyan-7);
+}
+
+img {
+  width: 100%;
 }
