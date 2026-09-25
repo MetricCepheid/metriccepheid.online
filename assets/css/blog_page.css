@@ -5,6 +5,7 @@
 }
 
 #header {
+  display: inline-flex;
   background: linear-gradient(var(--color-magenta-3), var(--color-purple-3));
   padding: 30px 0;
   border-bottom: 3px solid var(--color-cyan-7);
@@ -12,6 +13,7 @@
 }
 
 #header h1 {
+  display: inline-flex;
   margin: 0;
   font-size: 48px;
   letter-spacing: 3px;
@@ -142,6 +144,20 @@ a:visited {
   box-shadow: 0 0 12px #000;
   border-radius: 3px;
   padding: 20px;
+}
+
+.button {
+  width: fit-content;
+  display: inline-flex;
+  padding-left: 8px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  justify-content: center;
+  background: var(--color-cyan-6);
+  box-shadow: 0 0 12px #000;
+  color: black;
+  font-size: 20px;
+  font-family: 'Minecraft Regular', sans-serif;
 }
 
 @media screen and (max-width: 1042px) {
