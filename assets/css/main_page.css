@@ -60,11 +60,6 @@ a:visited {
   text-align: center;
 }
 
-.customs_community {
-  color: var(--color-white);
-  letter-spacing: 1px;
-}
-
 .info-sections {
   display: flex;
   justify-content: center;
