@@ -68,6 +68,7 @@ input[type="radio"][name="blog-tabs"] {
   animation: fadeIn 0.3s ease;
 }
 
+#tab-09-26:checked ~ .tab-menu [for="tab-09-26"],
 #tab-09-25-2:checked ~ .tab-menu [for="tab-09-25-2"],
 #tab-09-25-1:checked ~ .tab-menu [for="tab-09-25-1"],
 #tab-09-16:checked ~ .tab-menu [for="tab-09-16"],
@@ -79,6 +80,7 @@ input[type="radio"][name="blog-tabs"] {
   color: var(--color-white);
 }
 
+#tab-09-26:checked ~ .tab-panels #content-09-26,
 #tab-09-25-2:checked ~ .tab-panels #content-09-25-2,
 #tab-09-25-1:checked ~ .tab-panels #content-09-25-1,
 #tab-09-16:checked ~ .tab-panels #content-09-16,
@@ -237,5 +239,9 @@ iframe {
 }
 
 img {
+  width: 100%;
+}
+
+video {
   width: 100%;
 }
