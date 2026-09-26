@@ -68,7 +68,8 @@ input[type="radio"][name="blog-tabs"] {
   animation: fadeIn 0.3s ease;
 }
 
-#tab-09-26:checked ~ .tab-menu [for="tab-09-26"],
+#tab-09-26-2:checked ~ .tab-menu [for="tab-09-26-2"],
+#tab-09-26-1:checked ~ .tab-menu [for="tab-09-26-1"],
 #tab-09-25:checked ~ .tab-menu [for="tab-09-25"],
 #tab-09-16:checked ~ .tab-menu [for="tab-09-16"],
 #tab-09-15:checked ~ .tab-menu [for="tab-09-15"],
@@ -79,7 +80,8 @@ input[type="radio"][name="blog-tabs"] {
   color: var(--color-white);
 }
 
-#tab-09-26:checked ~ .tab-panels #content-09-26,
+#tab-09-26-2:checked ~ .tab-panels #content-09-26-2,
+#tab-09-26-1:checked ~ .tab-panels #content-09-26-1,
 #tab-09-25:checked ~ .tab-panels #content-09-25,
 #tab-09-16:checked ~ .tab-panels #content-09-16,
 #tab-09-15:checked ~ .tab-panels #content-09-15,
