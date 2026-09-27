@@ -1,32 +1,21 @@
+/*
 @font-face {
-	font-family: "Determination Mono";
+	font-family: "HeadlinerNo45";
 	src:
-	local("Determination Mono"),
-	url("/assets/fonts/DTM-Mono/DTM-Mono.eot?#iefix") format("embedded-opentype"),
-	url("/assets/fonts/DTM-Mono/DTM-Mono.otf") format("opentype"),
-	url("/assets/fonts/DTM-Mono/DTM-Mono.woff2") format("woff2"),
-	url("/assets/fonts/DTM-Mono/DTM-Mono.woff") format("woff"),
-	url("/assets/fonts/DTM-Mono/DTM-Mono.ttf") format("truetype");
+	local("HeadlinerNo45"),
+	url("/assets/fonts/headliner-no-45-font/HeadlinerNo45.eot?#iefix") format("embedded-opentype"),
+	url("/assets/fonts/headliner-no-45-font/HeadlinerNo45.otf") format("opentype"),
+	url("/assets/fonts/headliner-no-45-font/HeadlinerNo45.woff2") format("woff2"),
+	url("/assets/fonts/headliner-no-45-font/HeadlinerNo45.woff") format("woff"),
+	url("/assets/fonts/headliner-no-45-font/HeadlinerNo45.ttf") format("truetype");
 }
+*/
 
 @font-face {
-	font-family: "Determination Sans";
+	font-family: "gemsbuck-03-black-font";
 	src:
-	local("Determination Sans"),
-	url("/assets/fonts/DTM-Sans/DTM-Sans.eot?#iefix") format("embedded-opentype"),
-	url("/assets/fonts/DTM-Sans/DTM-Sans.otf") format("opentype"),
-	url("/assets/fonts/DTM-Sans/DTM-Sans.woff2") format("woff2"),
-	url("/assets/fonts/DTM-Sans/DTM-Sans.woff") format("woff"),
-	url("/assets/fonts/DTM-Sans/DTM-Sans.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Minecraft Regular";
-	src:
-	local("Minecraft Regular"),
-	url("/assets/fonts/minecraftfont/minecraftfont.eot?#iefix") format("embedded-opentype"),
-	url("/assets/fonts/minecraftfont/minecraftfont.otf") format("opentype"),
-	url("/assets/fonts/minecraftfont/minecraftfont.woff2") format("woff2"),
-	url("/assets/fonts/minecraftfont/minecraftfont.woff") format("woff"),
-	url("/assets/fonts/minecraftfont/minecraftfont.ttf") format("truetype");
+	local("gemsbuck-03-black-font"),
+	url("/assets/fonts/gemsbuck-03-black-font/Gemsbuck03Black-G3JZa.woff2") format("woff2"),
+	url("/assets/fonts/gemsbuck-03-black-font/Gemsbuck03Black-G3JZa.woff") format("woff"),
+	url("/assets/fonts/gemsbuck-03-black-font/Gemsbuck03Black-G3JZa.ttf") format("truetype");
 }
